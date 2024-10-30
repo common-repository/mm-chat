@@ -1,0 +1,56 @@
+.ui-dialog-title {
+	font-size:.7em !important;
+}
+
+.chat {
+	font-size:9px !important;
+}
+
+.chat-read {
+	top:0;
+	left:0;
+	width:100%;
+	height:80%;
+	overflow:auto;
+	position:absolute;
+}
+
+.chat-read p {
+	margin:0;
+	padding:0 5px 3px 5px;
+}
+
+.chat-write {
+	left:0;
+	bottom:0;
+	width:100%;
+	height:20%;
+	overflow:hidden;
+	position:absolute;
+}
+
+.chat-write textarea {
+	width:98%;
+	height:98%;
+	padding:1%;
+	border:none !important;
+}
+
+#chat-contacts {
+}
+
+#chat-contacts .online {
+	color:#00ff00;
+}
+
+#chat-contacts .offline {
+	color:#aaaaaa;
+}
+
+#chat-contacts .chat-contact-options {
+	float:right;
+}
+
+#chat-contacts .chat-contact-options a {
+	float:right;
+}
